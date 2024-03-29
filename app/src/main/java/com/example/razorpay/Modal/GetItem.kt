@@ -1,0 +1,1 @@
+package com.example.razorpay.Modaldata class GetItem(    val contact: String,    val created_at: Int,    val email: String,    val entity: String,    val gstin: String,    val id: String,    val name: String,    val notes: NotesX)

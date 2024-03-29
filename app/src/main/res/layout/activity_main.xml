@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="9dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="123dp"
+            android:layout_height="150dp"
+            android:background="@drawable/img"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_marginStart="9dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apple iPhone 15 (Green, 128 GB)"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="128 GB ROM"
+                android:textColor="#808080"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15.49 cm (6.1 inch) Super Retina XDR Display"
+                android:textColor="#808080"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="48MP + 12MP | 12MP Front Camera"
+                android:textColor="#808080"
+                android:textSize="16sp"/>
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rating="4"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/amountEDit"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="9dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="amount"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/buyBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BUY NOW"
+        android:textColor="#FB8C00"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="8dp"
+        android:backgroundTint="#747474"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/RazorpayBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POST"
+        android:textColor="#FB8C00"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="8dp"
+        android:backgroundTint="#747474"/>
+
+
+    <TextView
+        android:id="@+id/gettext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:text="@string/app_name"/>
+
+</LinearLayout>

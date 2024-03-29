@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".PostActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Razorpay add data"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:textColor="#43A047"
+        android:layout_marginTop="30dp"/>
+    <EditText
+        android:id="@+id/postName"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:hint="name..."
+        android:inputType="text"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/postEmail"
+        android:layout_width="match_parent"
+        android:hint="email..."
+        android:layout_marginTop="20sp"
+        android:inputType="textEmailAddress"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/postNumber"
+        android:layout_width="match_parent"
+        android:hint="number..."
+        android:inputType="number"
+        android:layout_marginTop="20sp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/postBtnREz"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:text="post"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

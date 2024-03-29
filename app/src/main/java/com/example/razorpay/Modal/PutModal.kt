@@ -1,0 +1,1 @@
+package com.example.razorpay.Modaldata class PutModal(    val contact: String,    val email: String,    val name: String)

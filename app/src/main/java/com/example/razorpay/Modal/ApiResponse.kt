@@ -1,0 +1,1 @@
+package com.example.razorpay.Modaldata class ApiResponse<T>(val count: Int,                          val entity: String,                          val items: List<GetItem>)
